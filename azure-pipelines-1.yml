@@ -18,3 +18,5 @@ steps:
     publishJUnitResults: false
     testResultsFiles: '**/TEST-*.xml'
     tasks: 'assembleDebug'
+- name: Create-or-update-pact-webhook
+  uses: rajnavakotiikea/pact-command-execution@v1.0.3
